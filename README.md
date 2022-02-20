@@ -1,11 +1,16 @@
+Built by Jack Hancock.
 This project was bootstrapped with [Create Eth App](https://github.com/paulrberg/create-eth-app).
 
+### Features
+
+- [ ] View all available & unavailable tickets
+- [ ] Select an unavailable ticket to purchase
+- [ ] Purchase NFT ticket
+- [ ] Sell your ticket
+- [ ] Transfer your ticket to a different address
+- [ ] Place a bid on unavailable tickets
+
 ## Project Structure
-
-The default template is a monorepo created with [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/).
-
-Workspaces makes it possible to setup multiple packages in such a way that we only need to run `yarn install` once to install all of them in
-a single pass. Dependencies are hoisted at the root.
 
 ```
 my-eth-app
@@ -56,8 +61,6 @@ my-eth-app
         └── subgraph.yaml
 ```
 
-Owing to this dependency on Yarn Workspaces, Create Eth App can't be used with npm.
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -76,8 +79,6 @@ You will see the build errors and lint warnings in the console.
 
 Runs the React test watcher in an interactive mode.<br>
 By default, runs tests related to files changed since the last commit.
-
-[Read more about testing React.](https://facebook.github.io/create-react-app/docs/running-tests)
 
 #### `yarn react-app:build`
 
